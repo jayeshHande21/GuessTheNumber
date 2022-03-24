@@ -10,7 +10,6 @@ const secretNumber = Math.trunc(Math.random() * 20 + 1);
 const showScore = document.querySelector(".score");
 
 let score = 20;
-show.textContent = secretNumber;
 
 function checkScore() {
   const guess = Number(document.querySelector(".guess").value);
