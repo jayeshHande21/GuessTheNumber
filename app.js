@@ -23,6 +23,7 @@ function checkScore() {
       score--;
       showScore.textContent = score;
     } else {
+      message.textContent = "YOU LOST THE SAME 😢😢";
     }
   } else if (guess > secretNumber) {
     if (score > 0) {
@@ -31,7 +32,7 @@ function checkScore() {
 
       showScore.textContent = score;
     } else {
-      message.textContent = "YOU LOST 😢😢";
+      message.textContent = "YOU LOST THE SAME 😢😢";
     }
   } else if (guess === secretNumber) {
     message.textContent = "Yor Are Correct🥳🥳";
