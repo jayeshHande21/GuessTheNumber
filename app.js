@@ -9,7 +9,7 @@ let again = document.querySelector(".again");
 let showHighScore = document.querySelector(".highscore");
 
 let secretNumber = Math.trunc(Math.random() * 20 + 1);
-show.textContent = secretNumber;
+// show.textContent = secretNumber;
 let score = 20;
 let HighScore = 0;
 function checkScore() {
